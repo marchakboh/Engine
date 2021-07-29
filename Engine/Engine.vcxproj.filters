@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Console">
+      <UniqueIdentifier>{82344143-cfdb-4834-bebb-3e3f4fc68d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{e14c139e-18fc-4c59-b1f2-123ed5620e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{1e11ac1e-b34f-4ccc-a169-9d565162b4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyboard">
+      <UniqueIdentifier>{783d2bed-b379-45f3-84f1-d1c57ba4979d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mouse">
+      <UniqueIdentifier>{715ef3e8-68d8-482c-a8e3-5bbc147a8264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5658b01f-330d-49a9-8e06-36cf77dd74cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threads">
+      <UniqueIdentifier>{f8576e35-5b1f-47c8-a22f-70fd92147aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{d997f49b-13d4-485f-859a-b13c03903b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication">
+      <UniqueIdentifier>{5cd3f7e3-4c43-40d3-8295-4f96c87cc251}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\Console\Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exception\Exception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameApp\GameApplication.cpp">
+      <Filter>GameApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics\Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Keyboard\Keyboard.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mouse\Mouse.cpp">
+      <Filter>Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Threads\Threads.cpp">
+      <Filter>Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\Console\Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exception\Exception.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameApp\GameApplication.h">
+      <Filter>GameApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics\Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Keyboard\Keyboard.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mouse\Mouse.h">
+      <Filter>Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Threads\Threads.h">
+      <Filter>Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
